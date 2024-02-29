@@ -1,0 +1,13 @@
+{
+    "text": "BA",
+    "baseurl" : "https://rahulshettyacademy.com/seleniumPractise/#/",
+    "promotext" : "Invalid code ..!",
+    "addToCart" : "ADD TO CART",
+    "randomCode" : "RANDOMCODE",
+    "country" : "India",
+    "checkout" : "PROCEED TO CHECKOUT",
+    "apply" : "Apply",
+    "order" : "Place Order", 
+    "proceed" : "Proceed",
+    "checkoutVerificationText" : "Thank you"
+} 
