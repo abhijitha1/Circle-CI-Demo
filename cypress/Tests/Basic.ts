@@ -16,34 +16,36 @@ it("learning assertions", function()
 
     type point = {x: number, y: number}; //using type annotation to initialise the intent
     let center: point = { x: 0, y: 2 }; //Javascript variables initialised to objects
+    center.x = 12367; //We can directly modify the values of the objects using type variables.
+    center.y = 2236587;
+    let example: any;
+
+})
+
+it("learning assertions", function()
+{
+    let Array: number [] = [1,2,3,4,5];
+    let tuple: [number, number] = [1,2];
+
+    type point = {x: number, y: number}; //using type annotation to initialise the intent
+    let center: point = { x: 0, y: 2 }; //Javascript variables initialised to objects
+    center.x = 12345567; //We can directly modify the values of the objects using type variables.
+    center.y = 2238766;
+    let example: any;
+
+})
+
+it("learning assertions", function()
+{
+    let Array: number [] = [1,2,3,4,5];
+    let tuple: [number, number] = [1,2];
+
+    type point = {x: number, y: number}; //using type annotation to initialise the intent
+    let center: point = { x: 0, y: 2 }; //Javascript variables initialised to objects
     center.x = 123; //We can directly modify the values of the objects using type variables.
     center.y = 223;
     let example: any;
 
 })
 
-it("learning assertions", function()
-{
-    let Array: number [] = [1,2,3,4,5];
-    let tuple: [number, number] = [1,2];
 
-    type point = {x: number, y: number}; //using type annotation to initialise the intent
-    let center: point = { x: 0, y: 2 }; //Javascript variables initialised to objects
-    center.x = 13; //We can directly modify the values of the objects using type variables.
-    center.y = 23;
-    let example: any;
-
-})
-
-it("learning assertions", function()
-{
-    let Array: number [] = [1,2,3,4,5];
-    let tuple: [number, number] = [1,2];
-
-    type point = {x: number, y: number}; //using type annotation to initialise the intent
-    let center: point = { x: 0, y: 2 }; //Javascript variables initialised to objects
-    center.x = 23; //We can directly modify the values of the objects using type variables.
-    center.y = 3;
-    let example: any;
-
-})
