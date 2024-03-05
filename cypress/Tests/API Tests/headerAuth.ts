@@ -17,7 +17,7 @@ describe('API Test', () => {
         authToken = response.body.accessToken;
       });
     });
-   
+    
     before("Creating order",() => {
         cy.request({
           method: 'POST',
